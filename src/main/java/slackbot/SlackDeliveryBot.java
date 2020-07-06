@@ -1,0 +1,11 @@
+package slackbot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SlackDeliveryBot {
+        public static void main(String[] args) {
+            SpringApplication.run(SlackDeliveryBot.class, args);
+        }
+}
